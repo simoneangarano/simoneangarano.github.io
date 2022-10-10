@@ -5,9 +5,9 @@ permalink: /
 subtitle:
 
 profile:
-  align: left
+  align: right
   image: linkedin.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: simone.angarano[at]polito.it
 
 news: true  # includes a list of news items
