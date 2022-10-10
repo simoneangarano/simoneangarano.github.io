@@ -5,10 +5,10 @@ permalink: /
 subtitle:
 
 profile:
-  align: center
+  align: left
   image: linkedin.png
-  image_circular: true # crops the image to make it circular
-  address: simone [dot] angarano [at] polito [dot] it
+  image_circular: false # crops the image to make it circular
+  address: simone.angarano[at]polito.it
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
