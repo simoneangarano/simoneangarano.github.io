@@ -6,7 +6,7 @@ title: Simone Angarano # the website title (if blank, full name will be used ins
 first_name: Simone
 middle_name:
 last_name: Angarano
-email: simone.angarano@polito.it
+email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
 keywords: phd, machine learning, deep learning, italy, university, turin, Torino, Politecnico, robotics, research, paper, portfolio, website, cv, academic  # add your own keywords or leave empty

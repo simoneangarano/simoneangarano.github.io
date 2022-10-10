@@ -8,7 +8,7 @@ profile:
   align: center
   image: linkedin.png
   image_circular: true # crops the image to make it circular
-  address:
+  address: simone [dot] angarano [at] polito [dot] it
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
