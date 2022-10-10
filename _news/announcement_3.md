@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-09-30 14:30:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I presented my poster [Efficient Deep Learning models for robot perception, control, and decision-making](https://posterday2022.polito.it/sites/default/files/public/poster-repository/s293126.pdf) at the annual PhD PosterDay to professors Barbara Caputo, Alessandro Rizzo and Daniele Pagliari! :sparkles:
