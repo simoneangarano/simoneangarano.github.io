@@ -65,7 +65,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: simoneangarano # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: simoneangarano # your Twitter handle
+twitter_username: simone_anga # your Twitter handle
 linkedin_username: simoneangarano # your LinkedIn user name
 scholar_userid: OtQ7O7QAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -141,8 +141,8 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+news_limit: # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
