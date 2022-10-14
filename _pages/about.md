@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: left
-  image: linkedin.png
+  image: linkedin.jpg
   image_circular: true # crops the image to make it circular
   address:
 
