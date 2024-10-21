@@ -188,8 +188,8 @@ newsletter:
 
 collections:
   news:
-    defaults:
-      layout: post
+    # defaults:
+    #   layout: post
     output: true
     permalink: /:collection/:title/
   projects:
