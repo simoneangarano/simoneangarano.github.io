@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://simoneangarano.github.io/about//sitemap.xml
+Sitemap: https://simoneangarano.github.io/about/sitemap.xml
