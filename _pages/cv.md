@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: true
@@ -9,3 +9,8 @@ description: CV.
 toc:
   sidebar: left
 ---
+
+My CV and Resume are available for download in PDF format.
+
+[![CV](https://img.shields.io/badge/CV-Download-196ebd?style=flat)](../assets/pdf/cv.pdf)
+[![Resume](https://img.shields.io/badge/Resume-Download-BB3E45?style=flat)](../assets/pdf/resume.pdf)
