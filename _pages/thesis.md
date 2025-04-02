@@ -19,6 +19,6 @@ I hope you appreciate it! Do not hesitate to contact me for comments, suggestion
 > _Pursuing it with eager feet,_  
 > _Until it joins some larger way_  
 > _Where many paths and errands meet._  
-> _And whither then? I cannot say._  
-> 
+> _And whither then? I cannot say._
+>
 > J.R.R. Tolkien, The Fellowship of the Ring
