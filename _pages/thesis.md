@@ -10,7 +10,7 @@ nav_order: 4
 This is a companion page for my Ph.D. thesis, where I hope to publish additional findings, considerations, and updates that touch upon the topics we treated here.
 For now, this page is assumed to be a static short summary of the thesis. I will later convert it to a collection of appendices and complements, so that I can keep expanding this already quite bulky work with new discoveries, readings, and considerations on efficient and robust AI.
 
-[![Thesis](https://img.shields.io/badge/Thesis-Download-196EBD)](../assets/pdf/thesis.pdf)
+[![Thesis](https://img.shields.io/badge/Thesis-Download-196EBD)](../assets/pdf/thesis.pdf) (only the abstract for now, the full thesis will be available soon)
 
 I hope you appreciate it! Do not hesitate to contact me for comments, suggestions, and feedback on the thesis.
 
