@@ -21,8 +21,9 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Hi! I'm **Simone Angarano**, and I am a 3rd-year Ph.D. student in Machine Learning at [Politecnico di Torino](https://www.polito.it) . I am a member of the AI section of the Interdepartmental Center for Service Robotics [PIC4SeR](https://pic4ser.polito.it), where my focus is on creating **efficient deep learning models for robot perception and control**. In my research, particular attention is given to key aspects of real-world applications like **generalization** and **robustness**. I spent a year at the [University of Texas at Austin](https://vita-group.github.io), working on efficient foundation models. In the previous years, I had the opportunity to work on different research projects spanning tasks like **human action recognition**, super-resolution, **semantic segmentation**, path planning, and localization. Solving these tasks, I got passionate about domain and sim-to-real generalization, **model compression**, and **knowledge distillation**. I also collaborated on various projects with **companies**, leveraging state-of-the-art deep learning solutions to solve real-world tasks in **smart agriculture**, space exploration, and **domestic assistance**.
-In 2024, I worked as an AI research expert for the [European Union Joint Research Center](https://joint-research-centre.ec.europa.eu/index_en) on the AIACS project (drought forecasting using weather data). 
-A few interesting projects I’ve worked on are summarized in this [video](https://www.youtube.com/watch?v=tLZ63ygjOwI), that won me the **PhD Quality Award** from my university. 
+In 2024, I worked as an AI research expert for the [European Union Joint Research Center](https://joint-research-centre.ec.europa.eu/index_en) on the AIACS project (drought forecasting using weather data).
+A few interesting projects I’ve worked on are summarized in this [video](https://www.youtube.com/watch?v=tLZ63ygjOwI), that won me the **PhD Quality Award** from my university.
+
 <!---
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
