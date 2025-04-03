@@ -1,10 +1,12 @@
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_users:
   - simoneangarano
 
 github_repos:
-  - PIC4SeR/MPOSE2021_Dataset
   - PIC4SeR/AcT
-  - EscVM/RSC-Wrapper
-  - fsalv/ClusterWay
+  - PIC4SeR/MPOSE2021_Dataset
+  - PIC4SeR/EdgeSRGAN
+  - PIC4SeR/Back-to-Bones
+  - ultralytics/ultralytics
+  - Lightning-AI/litgpt
