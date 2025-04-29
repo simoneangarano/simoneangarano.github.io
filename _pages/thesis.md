@@ -12,6 +12,8 @@ For now, this page is assumed to be a static short summary of the thesis. I will
 
 [![Thesis](https://img.shields.io/badge/Thesis-Download-196EBD)](../assets/pdf/thesis.pdf) (only the abstract for now, the full thesis will be available soon)
 
+**Appendix A - [BabyAgent: Self-supervised Learning Beyond Internet Data](https://simoneangarano.github.io/babyagent)**
+
 I hope you appreciate it! Do not hesitate to contact me for comments, suggestions, and feedback on the thesis.
 
 > _The Road goes ever on and on,_  
