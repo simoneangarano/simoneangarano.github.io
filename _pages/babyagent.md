@@ -1,11 +1,26 @@
 ---
 layout: page
 permalink: /babyagent/
-title: BabyAgent: Self-supervised Learning Beyond Internet Data
-description: A playful experiment me and my colleagues Vittorio, Francesco, and Mauro worked on some years ago. Though the idea was kinda cool and the results started looking promising, we dropped it for other projects. Still, our Baby lives in our hearts and I thought it was worth sharing.
+title: BabyAgent - Self-supervised Learning Beyond Internet Data
+description: A playful experiment me and my colleagues Vittorio and Francesco worked on some years ago (2021). Though the idea was kinda cool and the results started looking promising, we dropped it for other projects. Still, our Baby lives in our hearts and I thought it was worth sharing.
 nav: false
-nav_order: 4
 pretty_table: true
+toc:
+  sidebar: left
+date: 2025-04-29
+featured: true
+authors:
+  - name: Simone Angarano
+    affiliations:
+      name: iGenius
+  - name: Vittorio Mazzia
+    affiliations:
+      name: Amazon
+  - name: Francesco Salvetti
+    affiliations:
+      name: Microsoft
+
+bibliography: babyagent.bib
 ---
 
 There is a subtle but remarkable difference between how modern deep learning algorithm learns with respect to "living beings": they always work with a fixed and pre-processed dataset. That has two main implications: firstly, models acquire knowledge constantly cycling over the same patterns. Secondly, datasets contain biases introduced by the authors. For instance, in a typical image classification problem, a dataset usually features well-defined subjects in the center of the field of view; blurring, chromatic aberrations, and other image defects are not present and only simulated through data augmentation. On the other hand, signals acquired by animals are much richer, and their learning algorithms have to deal with challenges that current deep learning models do not have to face. For instance, deal with multiple and not precise subjects in a scene. In other words, they learn from real-world scenes and not an imitation of them.
@@ -261,4 +276,4 @@ _Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., ... & Fei-
 
 ### Acknowledgements
 
-Many thanks Vittorio, Francesco, and Mauro for the fun time we spent together working on this project. I hope to see you again soon!
+Many thanks Vittorio and Francesco for the fun time we spent together working on this project. I hope to see you soon!
