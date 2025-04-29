@@ -12,7 +12,7 @@ featured: true
 authors:
   - name: Simone Angarano
     affiliations:
-      name: iGenius
+      name: Politecnico di Torino
   - name: Vittorio Mazzia
     affiliations:
       name: Amazon
@@ -21,6 +21,16 @@ authors:
       name: Microsoft
 
 bibliography: babyagent.bib
+
+toc:
+  - name: 1. A Plastic Shell with Two Eyes
+  - name: 2. Methodology
+  - name: 3. Preliminary Experiments
+    subsections:
+      - name: 3.1. Experimental Settings
+      - name: 3.2. Evaluation Protocol and Learning Follow-up
+  - name: References 
+  - name: Acknowledgements
 ---
 
 There is a subtle yet remarkable difference between how modern deep learning algorithms and "living beings" learn: they always work with a fixed and pre-processed dataset. That has two main implications: firstly, models acquire knowledge by constantly cycling over the same patterns. Secondly, datasets contain biases introduced by the authors. For instance, in a typical image classification problem, a dataset typically features well-defined subjects in the center of the field of view; blurring, chromatic aberrations, and other image defects are not present and only simulated through data augmentation. On the other hand, signals acquired by animals are much richer, and their learning algorithms must contend with challenges that current deep learning models do not encounter. For instance, deal with multiple and imprecise subjects in a scene. In other words, they learn from real-world scenes, not imitations of them.
@@ -74,7 +84,7 @@ As in [[2]](#2), to avoid the collapse of the self-supervised training, probabil
 
 <p align="center">
 <img src="../assets/img/babyagent/baby_attn.png" alt="drawing" width="600"/> <br>
-<b>Figure B.4</b>: <i>Example of attention maps computed by the past network after two months of training. We look at the attention map when using the <b>[CLS]</b> token as a query for the different heads in the last layer of the DeiT architecture. Each head focuses on a different portion of the scene.</i>
+<b>Figure B.4</b>: <i>Example of attention maps computed by the past network after two months of training. We look at the attention map when using the</i> <b>[CLS]</b> <i>token as a query for the different heads in the last layer of the DeiT architecture. Each head focuses on a different portion of the scene.</i>
 </p>
 
 ### 3. Preliminary Experiments
@@ -107,7 +117,7 @@ Without a standard dataset, it is impossible to assess the learning process with
 To follow-up the training procedure, we select four small datasets, MNIST [[7]](#7), Dogs vs. Cats [[8]](#8), CIFAR10 [[9]](#9) and the four domains of the PACS dataset [[10]](#10).
 Moreover, we also consider the validation sets of ImageNet [[11]](#11) and CIFAR-100 [[9]](#9) to evaluate the network on more challenging tasks. Therefore, the new main model is automatically assessed after a training session on those datasets with the evaluation protocol described before.
 
-In **Table B.1** and **Table B.2** report the preliminary results for the linear and k-NN classifiers, respectively. In both cases, it is clear how the network progressively learns more discriminating representations that allow for better separation of classes and form a closer cluster of more similar features. It is worth noticing how representations are remarkably generic: selected control datasets have a very different nature, but an improvement is perceptible in all of them. Moreover, some preliminary tests on the robustness of representations showed encouraging results. Indeed, the network has also been tested applying rotations of different degrees (up to $$40\deg$$) to all control datasets. Surprisingly, there was no noticeable deviation: results have an average standard deviation of $$\sigma=0.01$$.
+In **Table B.1** and **Table B.2** report the preliminary results for the linear and k-NN classifiers, respectively. In both cases, it is clear how the network progressively learns more discriminating representations that allow for better separation of classes and form a closer cluster of more similar features. It is worth noticing how representations are remarkably generic: selected control datasets have a very different nature, but an improvement is perceptible in all of them. Moreover, some preliminary tests on the robustness of representations showed encouraging results. Indeed, the network has also been tested applying rotations of different degrees (up to $$40^\circ$$) to all control datasets. Surprisingly, there was no noticeable deviation: results have an average standard deviation of $$\sigma=0.01$$.
 
 | **Day** | **MNIST** | **CvD** | **CIFAR** | **Art** | **Cartoon** | **Sketch** | **Photo** |
 | :-----: | :-------: | :-----: | :-------: | :-----: | :---------: | :--------: | :-------: |
